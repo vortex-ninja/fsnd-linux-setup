@@ -29,3 +29,20 @@ List of configurations made:
 
 - sudo apt-get install language-pack-pl-base
 - sudo dpkg-reconfigure locales
+
+### PIPENV AND VIRTUALENV
+
+- add commands to app.wsgi file to activate venv
+- set permissions for activate_this.py and all the folders above so apache can run this file
+
+## Setting environment variables with SetEnv
+
+- set variables with SetEnv in conf file
+- use those variables in wsgi file when defining application
+
+### Google auth
+
+- create a static ip for my instance
+- point a domain at the ip
+- add domain urls to google allowed redirect addresses
+- make path to client_secrets.json absolute (why is this needed?)
