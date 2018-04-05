@@ -46,3 +46,9 @@ List of configurations made:
 - point a domain at the ip
 - add domain urls to google allowed redirect addresses
 - make path to client_secrets.json absolute (why is this needed?)
+
+### Database setup
+
+ - create role catalog login with password 'catalog';
+ - grant select, update, insert, delete on all tables in schema public to catalog;
+ - grant usage, select on all sequences in schema public to catalog
