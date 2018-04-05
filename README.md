@@ -69,3 +69,8 @@ For the google oauth to work correctly please use http://acidninja.com/
  - `create role catalog with login password 'catalog';` - create a role 'catalog'
  - `grant select, update, insert, delete on all tables in schema public to catalog;` - set needed permissions
  - `grant usage, select on all sequences in schema public to catalog` - set needed permissions
+ 
+### THIRD PARTY RESOURCES USED TO COMPLETE THIS PROJECT
+
+ - http://flask.pocoo.org/docs/0.12/deploying/mod_wsgi/
+ - 
