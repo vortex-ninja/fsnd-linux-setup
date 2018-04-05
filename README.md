@@ -1,9 +1,10 @@
 # fsnd-linux-setup
 
-### IP, URL
+### ADDRESSES
 
-http://18.197.34.81/
-http://acidninja.com/
+IP: http://18.197.34.81/
+
+URL: http://acidninja.com/
 
 For the google oauth to work correctly please use http://acidninja.com/
 
@@ -19,13 +20,13 @@ For the google oauth to work correctly please use http://acidninja.com/
 
 ##### SSH SETUP
 
-- create two key pairs locally: linux_setup_main and linux_setup_grader with ssh-keygen. One for myself and for the 'grader' account
-- install public keys for user ubuntu and grader
+- create two key pairs locally: `linux_setup_main` and `linux_setup_grader` with `ssh-keygen`. One for myself and for the *grader* account
+- install public keys for user *ubuntu* and *grader*
 - remove default lightsail public key
  
-- change ssh port in `/etc/sshd/sshd_config` from 22 to 2200
-- set `PermitRootLogin no` to disallow remote root login
-- set `PasswordAuthentication no` to force key-based authentication
+- `/etc/sshd/sshd_config` change ssh port from 22 to 2200
+- `/etc/sshd/sshd_config`: set `PermitRootLogin no` to disallow remote root login
+- `/etc/sshd/sshd_config`: set `PasswordAuthentication no` to force key-based authentication
 
 ### AWS FIREWALL (from web interface)
 
