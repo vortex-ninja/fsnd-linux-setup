@@ -20,7 +20,7 @@ For the google oauth to work correctly please use http://acidninja.com/
 
 ##### SSH SETUP
 
-- create two key pairs locally: `linux_setup_main` and `linux_setup_grader` with `ssh-keygen`. One for myself and for the *grader* account
+- create two key pairs locally: `linux_setup_main` and `linux_setup_grader` with `ssh-keygen`. One for myself (user *ubuntu* and one for the *grader* account
 - install public keys for user *ubuntu* and *grader*
 - remove default lightsail public key
  
