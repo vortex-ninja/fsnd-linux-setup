@@ -27,8 +27,8 @@ For the google oauth to work correctly please access the app from http://catalog
 - remove default lightsail public key
  
 - `/etc/sshd/sshd_config` change ssh port from 22 to 2200
-- `/etc/sshd/sshd_config`: set `PermitRootLogin no` to disallow remote root login
-- `/etc/sshd/sshd_config`: set `PasswordAuthentication no` to force key-based authentication
+- `/etc/sshd/sshd_config` set `PermitRootLogin no` to disallow remote root login
+- `/etc/sshd/sshd_config` set `PasswordAuthentication no` to force key-based authentication
 
 ### AWS FIREWALL (from web interface)
 
