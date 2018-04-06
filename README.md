@@ -56,7 +56,7 @@ For the google oauth to work correctly please access the app from http://catalog
 
 ## SET ENVIRONMENT VARIABLES WITH `SetEnv`
 
-- set variables with `SetEnv` in configuration file `/etc/apache2/sites-available/test_catalog.conf`
+- set variables with `SetEnv` in configuration file `/etc/apache2/sites-available/catalog.conf`
 - use those variables in wsgi file when defining application
 
 ### GOOGLE OAUTH
