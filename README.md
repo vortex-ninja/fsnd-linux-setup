@@ -4,7 +4,8 @@
 
 IP: http://18.197.34.81/
 
-URL: http://acidninja.com/
+catalog app: http://catalog.acidninja.com/
+test app: http://test.acidninja.com/
 
 For the google oauth to work correctly please use http://acidninja.com/
 
@@ -62,13 +63,18 @@ For the google oauth to work correctly please use http://acidninja.com/
 - create a static ip for my instance
 - point a domain at the ip
 - add domain urls to google allowed redirect addresses
-- make path to `client_secrets.json` absolute (why is this needed?)
+- set a relative path to `client_secrets.json` in `app.py`
 
 ### DATABASE SETUP
 
  - `create role catalog with login password 'catalog';` - create a role *catalog*
  - `grant select, update, insert, delete on all tables in schema public to catalog;` - set needed permissions
  - `grant usage, select on all sequences in schema public to catalog` - set needed permissions
+ 
+### HOSTING TWO APPS
+
+- create two subdomains `catalog.acidninja.com` and `test.acidninja.com` both pointing at the static ip of the server
+- set up virtual host name-based website sharing by configuring `test_app.conf` and `catalog.conf`
  
 ### THIRD PARTY RESOURCES USED TO COMPLETE THIS PROJECT
 
