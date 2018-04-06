@@ -8,7 +8,7 @@ catalog app: http://catalog.acidninja.com/
 
 test app: http://test.acidninja.com/
 
-For the google oauth to work correctly please use http://acidninja.com/
+For the google oauth to work correctly please access the app from http://catalog.acidninja.com/
 
 ### SOFTWARE INSTALLED
 
